@@ -1,0 +1,6 @@
+> docker build -t dock_img .
+> docker run -p 8008:80 dock_img
+> docker container ls
+> docker stop db048824f71f
+> docker-compose up
+> docker-compose down
